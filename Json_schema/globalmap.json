@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
 
     "title": "globalMap",    
-    "description": "Implementation of the global map. A global map is a graph whose vertices are local maps and whose (directed) arcs represent the transformation between the coordinate systems of the two connected local maps.",
+    "description": "Implementation of the global map. A global map is a graph whose vertices are local maps and whose (directed) arcs represent the transformations between the coordinate systems of the two connected local maps.",
     "type": "object",
     
     "properties":{
