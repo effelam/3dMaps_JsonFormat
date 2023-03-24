@@ -1,8 +1,8 @@
 {
     "$id": "https://github.com/effelam/JSON_3dMaps/blob/master/globalmap.json",
-    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$schema": "http://json-schema.org/draft/2020-12/schema",
 
-    "title": "globalMap",    
+    "title": "GlobalMap",    
     "description": "Implementation of the global map. A global map is a graph whose vertices are local maps and whose (directed) arcs represent the transformations between the coordinate systems of the two connected local maps.",
     "type": "object",
     
@@ -20,6 +20,7 @@
         }
     },
 
+
     "definitions": {
         "vertex" :{
             "type": "object",
@@ -34,8 +35,10 @@
             "required": ["vertex_id", "vertex_type"]
         },
 
+
         "transformation": {
             "type": "object",
+
 
             "properties": {
                 "transformation_id": {"type": "string"},
@@ -61,9 +64,10 @@
                     "items": {"type": "number"}
                 }
             },
-            "required": ["transformation_id", "arc_head", "arc_tail"]
+            "required": ["transformation_id", "head", "tail"]
         }
     },
+
 
     "additionalProperties": false,
     "required": ["globalmap_id", "list_of_vertices", "list_of_arcs"]
