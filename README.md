@@ -1,2 +1,2 @@
-# 3dMaps_JsonFormat
-Json schema proposti per i vari tipi di mappa locale e per la mappa globale.
+# 3D-MDR JSON schemas and examples
+Json schemas for the global map and for the different types of local maps, with some examples.
