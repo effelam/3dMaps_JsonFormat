@@ -1,0 +1,44 @@
+{
+    "localmap_id": "cube.txt", 
+    "time": "2020-07-06T18:34:05.184597Z", 
+    "map_description": "Polygonmesh local map of cube.ply found at https://people.sc.fsu.edu/~jburkardt/data/ply/ply.html", 
+    "coordinate_system": "relative", 
+    "list_of_characteristics_point": [], 
+    "list_of_characteristics_polygon": [], 
+    "list_of_points": [
+        [[-1.0, -1.0, -1.0], []], 
+        [[1.0, -1.0, -1.0], []], 
+        [[1.0, 1.0, -1.0], []], 
+        [[-1.0, 1.0, -1.0], []], 
+        [[-1.0, -1.0, 1.0], []], 
+        [[1.0, -1.0, 1.0], []], 
+        [[1.0, 1.0, 1.0], []], 
+        [[-1.0, 1.0, 1.0], []]
+    ],
+    "list_of_polygons": [
+        {
+            "polygon_characteristics": [], 
+            "list_of_vertices": [0, 1, 2, 3]
+        }, 
+        {
+            "polygon_characteristics": [], 
+            "list_of_vertices": [5, 4, 7, 6]
+        }, 
+        {
+            "polygon_characteristics": [], 
+            "list_of_vertices": [6, 2, 1, 5]
+        }, 
+        {
+            "polygon_characteristics": [], 
+            "list_of_vertices": [3, 7, 4, 0]
+        }, 
+        {
+            "polygon_characteristics": [], 
+            "list_of_vertices": [7, 3, 2, 6]
+        }, 
+        {
+            "polygon_characteristics": [], 
+            "list_of_vertices": [5, 1, 0, 4]
+        }
+    ]
+}

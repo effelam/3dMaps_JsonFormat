@@ -1,0 +1,53 @@
+{
+    "globalmap_id": "GlobalMapExample",
+    "list_of_vertices": [
+        {
+            "vertex_id": "densegrid_1",
+            "vertex_type": "densegrid",
+            "vertex_path": "C:\\json\\localmap\\densegrid_1.json"
+        },
+        {
+            "vertex_id": "octree_1",
+            "vertex_type": "octree",
+            "vertex_path": "C:\\json\\localmap\\octree_1.json"
+        },
+        {
+            "vertex_id": "octree_2",
+            "vertex_type": "octree",
+            "vertex_path": "C:\\json\\localmap\\octree_2.json"
+        },
+        {
+            "vertex_id": "sparsegrid_1",
+            "vertex_type": "sparsegrid",
+            "vertex_path": "C:\\json\\localmap\\sparsegrid_1.json"
+        }
+    ],
+    "list_of_arcs": [
+        {
+            "transformation_id": "FromDenseGrid1ToOctree1",
+            "head": "densegrid_1",
+            "tail": "octree_1",
+            "rotation": [1,2,3,4],
+            "translation": [1,2,3],
+            "uncertainty": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+21,22,23,24,25,26,27,28]
+        },
+        {
+            "transformation_id": "FromOctree2ToDenseGrid1",
+            "head": " octree_2",
+            "tail": " densegrid_1",
+            "rotation": [1,2,3,4],
+            "translation": [1,2,3],
+            "uncertainty": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+                            21,22,23,24,25,26,27,28]
+        },
+        {
+            "transformation_id": "FromSparseGrid1ToOctree1",
+            "head": "sparsegrid_1",
+            "tail": "octree_1",
+            "rotation": [1,2,3,4],
+            "translation": [1,2,3],
+            "uncertainty": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+                            21,22,23,24,25,26,27,28]
+        }    ]
+}

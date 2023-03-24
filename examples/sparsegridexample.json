@@ -1,0 +1,20 @@
+{
+    "localmap_id": "SparseGridExample",
+    "time": "2020-06-28T18:48:36.497552Z",
+    "map_description": "Example of a sparse grid.",
+    "coordinate_system": "relative",
+    "resolution": [1,1,1],
+    "size": [50,50,50],
+    "list_of_characteristics": [
+        {
+            "c_name": "occupancy",
+            "c_description": "Occupancy status of the voxel: 0 means free, 1 means occupied.",
+            "c_values": "{0,1}"
+        }],
+    "list_of_voxels": [
+        [[0,0,0],[1]],
+        [[2,2,3],[1]],
+        [[42,42,42],[1]]
+    ],
+   "default_characteristics": [0]
+}

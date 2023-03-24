@@ -1,0 +1,23 @@
+{
+    "localmap_id": "DenseGridExample",
+    "time": "2020-06-28T18:48:36.497552Z",
+    "map_description": "Example of a dense grid.",
+    "coordinate_system": "relative",
+    "resolution": [1,1,1],
+    "size": [2,2,2],
+    "list_of_characteristics": [
+        {
+            "c_name": "occupancy",
+            "c_description": "Occupancy status of the voxel: 0 means free, 1 means occupied.",
+            "c_values": "{0,1}"
+        },
+        {
+            "c_name": "semantic_label",
+            "c_description": "The labels represent the position of the voxels.",
+            "c_values": "{ground, notground}"
+        }
+    ],
+    "list_of_voxels": [
+        [0, "ground"],[1, "ground"],[1, "ground"],[0, "ground"],[1, "notground"],[0, "notground"],[0, "notground"],[0, "notground"]
+    ]
+}
